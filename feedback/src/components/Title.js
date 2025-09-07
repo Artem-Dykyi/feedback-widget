@@ -1,5 +1,11 @@
+import styled from "styled-components";
+const TitleH = styled.h1`
+   color: coral;
+`
+
+
 export const Title = () =>{
      return(
-        <h1>Please leave feedback</h1>
+        <TitleH>Please leave feedback</TitleH>
      )
 }
