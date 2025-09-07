@@ -1,13 +1,20 @@
-export const Statistics = ({good, neutral, bad, total, positivePercentage})=>{
+import styled from "styled-components";
+
+
+const Text = styled.p`
+  color: rgb(197, 138, 60);
+`
+
+
+export const Statistics = ({good, neutral, bad})=>{
     return(
-         <div>
+         < BoxS>
             <h2>Statistics</h2>
-            <p>Good: {good}</p>
-            <p>Neutral: {neutral}</p>
-            <p>Bad: {bad}</p>
-            {/* <p>Total: {total}</p>
-            <p>Positive feedback: {positivePercentage}%</p> */}
-        </div>
+            <Text>Good: {good}</Text>
+            <Text>Neutral: {neutral}</Text>
+            <Text>Bad: {bad}</Text>
+           
+        </ BoxS>
   );
     
 }
