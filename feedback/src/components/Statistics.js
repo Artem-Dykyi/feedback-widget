@@ -4,6 +4,10 @@ import styled from "styled-components";
 const Text = styled.p`
   color: rgb(197, 138, 60);
 `
+const BoxS = styled.div`
+  background-color: rgb(255, 153, 122);
+  width:
+`
 
 
 export const Statistics = ({good, neutral, bad})=>{
