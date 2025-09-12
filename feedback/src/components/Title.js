@@ -1,6 +1,6 @@
 import styled from "styled-components";
 const TitleH = styled.h1`
-   color: coral;
+   color: rgba(73, 129, 9, 1);
 `
 
 

@@ -18,4 +18,9 @@ h4{
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
   border-color: rgb(197, 138, 60);
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  border-radius: 40px;
 }
